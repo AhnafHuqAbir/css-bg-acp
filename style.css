@@ -1,0 +1,52 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image_section {
+    width: 100%;
+    height: 200px;
+    background-color: plum;
+    background-image: url"(https: //thumbs.dreamstime.com/b/pink-sweet-dessert-bakery-background-design-pastry-candy-248503587.jpg)";
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gradient_section {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: wheat;
+    background-image: linear-gradient(to left, red, orange, orange, red);
+}
+
+.animation_section {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: hotpink;
+    animation: contractanimation 10s infinite;
+}
+
+@keyframes contactanimation {
+
+    0% {
+
+        background-color: palevioletred;
+
+    }
+
+    50% {
+
+        background-color: burlywood;
+
+    }
+
+    100% {
+
+        background-color: hotpink;
+
+    }
+
+}
